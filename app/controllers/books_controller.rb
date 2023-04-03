@@ -13,13 +13,12 @@ class BooksController < ApplicationController
     @book = Book.find(params[:id])
   end
 
+
   def edit
-     @book = Book.find(params[:id])
+    @book = Book.find(params[:id])
   end
 
-  private
-  def book_params
-    params.require(:book).permit(:title,:body)
+  def update
   end
 
 
