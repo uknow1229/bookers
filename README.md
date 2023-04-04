@@ -1,25 +1,15 @@
-# README
+# 3-13 アプリケーションを完成させよう Bookers
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## 苦労したポイント
+- RailsのMVCの関係を理解すること
+- ルーティングを理解すること
+- link_toパスの使い方
+- バリデーションの設定
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-# bookers
+## 学んだポイント
+- redirect_toとrenderの処理の違い
+- メソッドの使い分け
+- エラー分の解決方法・読み方
+- ルートパス設定
+- バリデーションの表示方法
+- RSpecによるテスト
